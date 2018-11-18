@@ -2421,6 +2421,48 @@
       }
     }
   },
+  "groovy": {
+    "title": "Groovy",
+    "type": "object",
+    "description": "Options for language Groovy",
+    "collapsed": true,
+    "beautifiers": [
+      "ideaformatter"
+    ],
+    "grammars": [
+      "Groovy",
+      "Jenkinsfile"
+    ],
+    "extensions": [
+      "groovy"
+    ],
+    "properties": {
+      "disabled": {
+        "title": "Disable Beautifying Language",
+        "order": -3,
+        "type": "boolean",
+        "default": false,
+        "description": "Disable Groovy Beautification"
+      },
+      "default_beautifier": {
+        "title": "Default Beautifier",
+        "order": -2,
+        "type": "string",
+        "default": "ideaformatter",
+        "description": "Default Beautifier to be used for Groovy",
+        "enum": [
+          "ideaformatter"
+        ]
+      },
+      "beautify_on_save": {
+        "title": "Beautify On Save",
+        "order": -1,
+        "type": "boolean",
+        "default": false,
+        "description": "Automatically beautify Groovy files on save"
+      }
+    }
+  },
   "fortran": {
     "title": "Fortran",
     "type": "object",

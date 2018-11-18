@@ -48,6 +48,7 @@ module.exports = class Beautifiers extends EventEmitter
     'elm-format'
     'hh_format'
     'htmlbeautifier'
+    'ideaformatter'
     'csscomb'
     'gherkin'
     'gn'
